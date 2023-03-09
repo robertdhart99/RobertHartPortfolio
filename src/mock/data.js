@@ -2,22 +2,29 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Bobby | Dev', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, my name is',
+  name: 'Bobby Hart',
+  subtitle: "I'm a Backend Developer",
   cta: '',
+};
+
+// SKILLS DATA
+export const skillsData = {
+  paragraphOne: '',
+  paragraphTwo: '',
+  paragraphThree: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'Logov1.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -59,36 +66,36 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'bobbydhart1@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //  id: nanoid(),
+    //  name: 'twitter',
+    //  url: '',
+    // },
+    // {
+    //  id: nanoid(),
+    //  name: 'codepen',
+    //  url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/robert--hart/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/robertdhart99',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
