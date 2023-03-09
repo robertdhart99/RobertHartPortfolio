@@ -1,5 +1,13 @@
 {
-  "ExpandedNodes": ["", "\\src"],
-  "SelectedNode": "\\src\\html.js",
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Hero",
+    "\\src\\components\\Image",
+    "\\src\\components\\Title",
+    "\\src\\images",
+    "\\src\\pages"
+  ],
   "PreviewInSolutionExplorer": false
 }
